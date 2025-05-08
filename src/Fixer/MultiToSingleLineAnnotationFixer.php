@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace K10r\Codestyle\Fixer;
+namespace TheOptimized\Codestyle\Fixer;
 
 use PhpCsFixer\AbstractFixer;
 use PhpCsFixer\FixerDefinition\CodeSample;
@@ -15,7 +15,7 @@ final class MultiToSingleLineAnnotationFixer extends AbstractFixer
 {
     public function getName(): string
     {
-        return 'Kellerkinder/single_line_annotation';
+        return 'TheOptimized/single_line_annotation';
     }
 
     public function getDefinition(): FixerDefinitionInterface

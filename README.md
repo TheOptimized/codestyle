@@ -3,7 +3,7 @@
 ## Installation
 First require the package via composer:
 
-`composer require --dev k10r/codestyle`
+`composer require --dev theoptimized/codestyle`
 
 ## Choose a version
 After that, decide which configuration you want to use, currently the following configurations are supported:
@@ -12,6 +12,7 @@ After that, decide which configuration you want to use, currently the following 
 - PHP 8.1
 - PHP 8.2
 - PHP 8.3
+- PHP 8.4
 
 ## Implementation
 - Create a `.php-cs-fixer.dist.php` or add the one provided by the project to the root folder of your project.

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace K10r\Codestyle\Fixer;
+namespace TheOptimized\Codestyle\Fixer;
 
 use PhpCsFixer\AbstractFixer;
 use PhpCsFixer\FixerDefinition\CodeSample;
@@ -15,7 +15,7 @@ final class AutomaticCommentsFixer extends AbstractFixer
 {
     public function getName(): string
     {
-        return 'Kellerkinder/automatic_comments';
+        return 'TheOptimized/automatic_comments';
     }
 
     public function getDefinition(): FixerDefinitionInterface

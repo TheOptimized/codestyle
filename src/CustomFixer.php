@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace K10r\Codestyle;
+namespace TheOptimized\Codestyle;
 
-use K10r\Codestyle\Fixer\AutomaticCommentsFixer;
-use K10r\Codestyle\Fixer\MultiToSingleLineAnnotationFixer;
+use TheOptimized\Codestyle\Fixer\AutomaticCommentsFixer;
+use TheOptimized\Codestyle\Fixer\MultiToSingleLineAnnotationFixer;
 
 final class CustomFixer
 {

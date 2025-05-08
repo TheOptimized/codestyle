@@ -1,15 +1,20 @@
 {
-  "name": "k10r/codestyle",
-  "description": "Kellerkinder codestyle definitions for different PHP versions.",
+  "name": "theoptimized/codestyle",
+  "description": "The Optimized code style definitions for different PHP versions.",
   "type": "library",
   "license": "MIT",
   "keywords": [
     "fixer",
     "php-cs-fixer",
     "custom-fixer",
-    "k10r"
+    "k10r",
+    "theoptimized"
   ],
   "authors": [
+    {
+      "name": "The Optimized GmbH",
+      "email": "hello@theoptimized.de"
+    },
     {
       "name": "Kellerkinder GmbH",
       "email": "anfragen@kellerkinder.de"
@@ -17,10 +22,10 @@
   ],
   "autoload": {
     "psr-4": {
-      "K10r\\Codestyle\\": "src/"
+      "TheOptimized\\Codestyle\\": "src/"
     }
   },
   "require": {
-    "friendsofphp/php-cs-fixer": "^3.49.0"
+    "friendsofphp/php-cs-fixer": "^3.75.0"
   }
 }

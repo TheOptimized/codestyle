@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace K10r\Codestyle;
+namespace TheOptimized\Codestyle;
 
 use PhpCsFixer\Config;
 use PhpCsFixer\Finder;
